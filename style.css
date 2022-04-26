@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+.nav-menu {
+    background-color: black;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.nav-menu img {
+    width: 5%;
+}
+
+.nav-menu a {
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.container {
+    margin: 0% 10%;
+    width: 80%;
+    padding: 15px;
+    background-color: white;
+}
+
+.igo {
+    margin-top: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.container img {
+    width: 60%;
+    margin: 20px 20%;
+    border: 4px solid black ;
+}
+
+.mail {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.mail h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.mail textarea {
+    padding: 10px 5px;
+    margin: 20px 15%;
+    width: 70%;
+    height: 100px;
+    max-width: 70%;
+    min-width: 350px;
+    max-height: 400px;
+    min-height: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.mail button {
+    width: 50%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    background-color: orange;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 25px 25%;
+}
